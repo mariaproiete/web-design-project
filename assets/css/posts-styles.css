@@ -1,0 +1,75 @@
+/*
+  All rights reserved to Maria Coding
+  mariacoding.com | @mariacoding   
+*/
+/* Width & Height Variables*/
+/* Navigation*/
+/*----------------*/
+/* Footer*/
+/*----------------*/
+/* Borders*/
+/*----------------*/
+/* Carousel*/
+/*----------------*/
+/* Objects Width & Height Variables*/
+/*----------------*/
+/* Left and Right Container*/
+/* 52rem */
+/* 42.5rem */
+/* 42rem */
+/* 60rem */
+/* 55rem */
+/* 46rem */
+/* 59rem */
+/* 54rem */
+/* 43rem */
+/* 38rem */
+/* 28rem */
+/* 30rem */
+/* 40rem */
+/* 32rem */
+/* 32rem */
+/*----------------*/
+/*55rem;*/
+/*44rem;*/
+/*;*/
+/* Names Colors*/
+/* http://www.color-hex.com/color-names.html*/
+/* Colors Variables*/
+/* Fonts Variables*/
+/*----------------*/
+/*----------------*/
+/*----------------*/
+/*----------------*/
+/*----------------*/
+/*********************************/
+/*         Posts Styles          */
+/*********************************/
+aside {
+  margin: 0 auto;
+  margin-bottom: 3%;
+  padding: 0.5% 5%; }
+  aside .text-bg {
+    margin: 95%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3.5%;
+    padding-top: 2%;
+    padding-bottom: 3%; }
+
+mark {
+  background-color: #ffd700;
+  color: #222;
+  font-family: indie-flower, cursive;
+  font-style: italic;
+  font-size: 160%;
+  font-weight: 500;
+  line-height: 125%;
+  padding: 0.1rem; }
+
+/* End of Posts Styles
+---------------------------------------------------------------- */
+
+/*# sourceMappingURL=posts-styles.css.map */

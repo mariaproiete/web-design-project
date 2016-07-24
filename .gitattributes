@@ -1,0 +1,21 @@
+# Set the default behavior, in case people don't have core.autocrlf set
+* text=auto
+
+# Explicitly declare files that should always be normalized and converted to native line endings on checkout
+*.js text
+*.css text
+*.md text
+
+# Explicitly declare files that should always be converted to LF regardless of platform
+bootstrap*.* text eol=lf
+jquery-* text eol=lf
+jquery*.* text eol=lf
+font-awesome-* text eol=lf
+font-awesome*.* text eol=lf
+
+# Explicitly declare files that should to be handled as binaries
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.png binary

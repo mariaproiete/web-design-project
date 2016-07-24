@@ -1,0 +1,42 @@
+/*
+  All rights reserved to Maria Coding
+  mariacoding.com | @mariacoding   
+*/
+
+@import "width-height-variables";
+@import "colors-variables";
+@import "fonts-variables";
+
+/*********************************/
+/*         Posts Styles          */
+/*********************************/
+
+aside {
+  margin: 0 auto; 
+  margin-bottom: 3%; 
+  padding: 0.5% 5%; 
+  .text-bg {
+    margin: 95%;
+    height: $text-aside-patt-bg-height-xs;
+    margin: 0 auto; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3.5%;
+    padding-top: 2%;
+    padding-bottom: 3%; 
+    } 
+}
+
+mark {
+  background-color: $texthighlighted-color;
+  color: $text-black-color;
+  font-family: $font-blockquotes;
+  font-style: italic;
+  font-size: 160%;
+  font-weight: 500;
+  line-height: 125%;  
+  padding: 0.1rem;
+}
+
+/* End of Posts Styles
+---------------------------------------------------------------- */
