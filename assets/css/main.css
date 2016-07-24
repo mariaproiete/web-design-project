@@ -70,10 +70,10 @@
 /* Import Custom Fonts */
 @font-face {
   font-family: indie-flower;
-  src: url(/assets/fonts/indie-flower/IndieFlower.ttf); }
+  src: url(../fonts/indie-flower/IndieFlower.ttf); }
 @font-face {
   font-family: josefin-sans;
-  src: url(/assets/fonts/josefin-sans/JosefinSans-SemiBold.ttf); }
+  src: url(../fonts/josefin-sans/JosefinSans-SemiBold.ttf); }
 /*----------------------*/
 html {
   position: relative;
