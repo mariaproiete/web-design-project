@@ -96,8 +96,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   padding-top: 1%;
   padding-bottom: 0.3%;
-  font-weight: 600;
-  text-rendering: optimizeLegibility; }
+  font-weight: 600; }
 
 h1 {
   color: #207068;
@@ -222,7 +221,8 @@ em {
 
 /* Abbreviations */
 abbr {
-  text-decoration-style: dotted; }
+  text-decoration-style: dotted;
+  -webkit-text-decoration-style: dotted; }
 
 .initialism {
   font-size: 0.8rem;
@@ -382,7 +382,7 @@ figcaption {
   font-style: italic; }
 
 .my-photo {
-  background-image: url(/assets/images/about/my-photo-md.jpg);
+  background-image: url(../images/about/my-photo-md.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 11.429rem;
@@ -390,7 +390,7 @@ figcaption {
   margin: 0 auto; }
 
 .bda-flag {
-  background-image: url(/assets/images/about/flag-of-bermuda-md.png);
+  background-image: url(../images/about/flag-of-bermuda-md.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 21.429rem;
@@ -398,7 +398,7 @@ figcaption {
   margin: 0 auto; }
 
 .bda-coat-of-arms {
-  background-image: url(/assets/images/about/coat-of-arms-of-bermuda-md.png);
+  background-image: url(../images/about/coat-of-arms-of-bermuda-md.png);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 13.071rem;
@@ -492,6 +492,22 @@ a.box-caption,
 a.box-caption:link {
   color: #f5f5f5; }
 
+.bda-map-container {
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 56.25%;
+  /*aspect ratio 16:9 */
+  padding-top: 1.875rem;
+  height: 0;
+  overflow: hidden; }
+
+.bda-map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; }
+
 /*----------------------*/
 /* Tables */
 .table th,
@@ -540,7 +556,7 @@ a.box-caption:link {
 .parallax-img-bg {
   padding: 28% 0;
   margin-bottom: 0;
-  background-image: url(/assets/images/jumbotron-img-xs.jpg);
+  background-image: url(../images/jumbotron-img-xs.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -555,7 +571,7 @@ a.box-caption:link {
 .img2-bg {
   padding: 10% 0;
   margin-bottom: 0;
-  background-image: url(/assets/images/img-quote01-xs.jpg);
+  background-image: url(../images/img-quote01-xs.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -572,7 +588,7 @@ a.box-caption:link {
 .img3-bg {
   padding: 10% 0;
   margin-bottom: 0;
-  background-image: url(/assets/images/img-quote02-xs.jpg);
+  background-image: url(../images/img-quote02-xs.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -602,7 +618,7 @@ h1.img-text {
   margin-top: -0.8%;
   margin-bottom: 0;
   background: rgba(32, 112, 104, 0.6);
-  background-image: url(/assets/images/undercontruction.jpg);
+  background-image: url(../images/undercontruction.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   opacity: 0.75;
@@ -618,7 +634,7 @@ h1.img-text {
   margin-top: -0.8%;
   margin-bottom: 0;
   background: rgba(32, 112, 104, 0.6);
-  background-image: url(/assets/images/no-landing-pg-hero-xs.jpg) !important;
+  background-image: url(../images/no-landing-pg-hero-xs.jpg) !important;
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -855,7 +871,7 @@ h1.img-text {
 #brand {
   display: inline-block;
   position: relative;
-  background-image: url("/assets/images/logo-xs.png");
+  background-image: url(../images/logo-xs.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -919,7 +935,7 @@ h1.img-text {
     color: #207068 !important;
     background: rgba(255, 255, 255, 0.5) !important;
     padding: 0.65rem;
-    border-radius: 0.3rem; }
+    border-radius: 15%; }
   .language-nav .active {
     color: #207068 !important;
     background-color: #39c9bb !important; }
@@ -1394,23 +1410,23 @@ a.btn-secondary:focus {
   /* Parallax Images */
   .parallax-img-bg {
     padding: 17% 0;
-    background-image: url(/assets/images/jumbotron-img-sm.jpg); }
+    background-image: url(../images/jumbotron-img-sm.jpg); }
 
   .img2-bg {
-    background-image: url(/assets/images/img-quote01-sm.jpg); }
+    background-image: url(../images/img-quote01-sm.jpg); }
 
   .img3-bg {
-    background-image: url(/assets/images/img-quote02-sm.jpg); }
+    background-image: url(../images/img-quote02-sm.jpg); }
 
   .underconstruction {
-    background-image: url(/assets/images/undercontruction-sm.jpg) !important; }
+    background-image: url(../images/undercontruction-sm.jpg) !important; }
 
   .no-landing-pg-hero-img {
-    background-image: url(/assets/images/no-landing-pg-hero-sm.jpg) !important; }
+    background-image: url(../images/no-landing-pg-hero-sm.jpg) !important; }
 
   /* About Images */
   .my-photo {
-    background-image: url(/assets/images/about/my-photo-sm.jpg);
+    background-image: url(../images/about/my-photo-sm.jpg);
     background-size: 8.071rem 9.643rem;
     height: 9.643rem; }
 
@@ -1541,32 +1557,32 @@ a.btn-secondary:focus {
   /* Parallax Images */
   .parallax-img-bg {
     padding: 17% 0;
-    background-image: url(/assets/images/jumbotron-img-md.jpg); }
+    background-image: url(../images/jumbotron-img-md.jpg); }
 
   .img2-bg {
-    background-image: url(/assets/images/img-quote01-md.jpg); }
+    background-image: url(../images/img-quote01-md.jpg); }
 
   .img3-bg {
-    background-image: url(/assets/images/img-quote02-md.jpg); }
+    background-image: url(../images/img-quote02-md.jpg); }
 
   .underconstruction {
-    background-image: url(/assets/images/undercontruction-md.jpg) !important; }
+    background-image: url(../images/undercontruction-md.jpg) !important; }
 
   .no-landing-pg-hero-img {
-    background-image: url(/assets/images/no-landing-pg-hero-md.jpg) !important; }
+    background-image: url(../images/no-landing-pg-hero-md.jpg) !important; }
 
   /* About Images */
   .my-photo {
-    background-image: url(/assets/images/about/my-photo-md.jpg);
+    background-image: url(../images/about/my-photo-md.jpg);
     background-size: 100%; }
 
   .bda-flag {
-    background-image: url(/assets/images/about/flag-of-bermuda-md.png);
+    background-image: url(../images/about/flag-of-bermuda-md.png);
     background-size: 100%;
     height: 8rem; }
 
   .bda-coat-of-arms {
-    background-image: url(/assets/images/about/coat-of-arms-of-bermuda-md.png);
+    background-image: url(../images/about/coat-of-arms-of-bermuda-md.png);
     background-size: 70%;
     height: 14rem; }
 
@@ -1613,10 +1629,10 @@ a.btn-secondary:focus {
   /* ------ start Animations style ---------------*/
   /* ------ Fly in Text style-------*/
   .fly-in-text {
-    top: 24%; }
+    top: 10.5%; }
 
   .fly-in-text li {
-    font-size: 2.92rem; } }
+    font-size: 2.5rem; } }
 /*End of Media Queries - Medium devices
 ---------------------------------------------------------------- */
 /***************************************************************/
@@ -1690,19 +1706,19 @@ a.btn-secondary:focus {
   /* Parallax Images */
   .parallax-img-bg {
     padding: 17% 0;
-    background-image: url(/assets/images/jumbotron-img-lg.jpg); }
+    background-image: url(../images/jumbotron-img-lg.jpg); }
 
   .img2-bg {
-    background-image: url(/assets/images/img-quote01-lg.jpg); }
+    background-image: url(../images/img-quote01-lg.jpg); }
 
   .img3-bg {
-    background-image: url(/assets/images/img-quote02-lg.jpg); }
+    background-image: url(../images/img-quote02-lg.jpg); }
 
   .underconstruction {
-    background-image: url(/assets/images/undercontruction-lg.jpg) !important; }
+    background-image: url(../images/undercontruction-lg.jpg) !important; }
 
   .no-landing-pg-hero-img {
-    background-image: url(/assets/images/no-landing-pg-hero-lg.jpg) !important; }
+    background-image: url(../images/no-landing-pg-hero-lg.jpg) !important; }
 
   /* About Images */
   .my-photo {
@@ -1783,10 +1799,10 @@ a.btn-secondary:focus {
   /* ------ start Animations style ---------------*/
   /* ------ Fly in Text style-------*/
   .fly-in-text {
-    top: 28%; }
+    top: 11%; }
 
   .fly-in-text li {
-    font-size: 4.1rem; } }
+    font-size: 4rem; } }
 /*End of Media Queries - Large devices
 ---------------------------------------------------------------- */
 /***************************************************************/
@@ -1849,19 +1865,19 @@ a.btn-secondary:focus {
   /* Parallax Images */
   .parallax-img-bg {
     padding: 17% 0;
-    background-image: url(/assets/images/jumbotron-img-xl.jpg); }
+    background-image: url(../images/jumbotron-img-xl.jpg); }
 
   .img2-bg {
-    background-image: url(/assets/images/img-quote01-xl.jpg); }
+    background-image: url(../images/img-quote01-xl.jpg); }
 
   .img3-bg {
-    background-image: url(/assets/images/img-quote02-xl.jpg); }
+    background-image: url(../images/img-quote02-xl.jpg); }
 
   .underconstruction {
-    background-image: url(/assets/images/undercontruction-xl.jpg) !important; }
+    background-image: url(../images/undercontruction-xl.jpg) !important; }
 
   .no-landing-pg-hero-img {
-    background-image: url(/assets/images/no-landing-pg-hero-xl.jpg) !important; }
+    background-image: url(../images/no-landing-pg-hero-xl.jpg) !important; }
 
   /* 3D Box Images (Post Categories) */
   figure.box-fig {
@@ -1906,10 +1922,10 @@ a.btn-secondary:focus {
   /* ------ start Animations style ---------------*/
   /* ------ Fly in Text style-------*/
   .fly-in-text {
-    top: 28.5%; }
+    top: 12.7%; }
 
   .fly-in-text li {
-    font-size: 5.35rem; } }
+    font-size: 5rem; } }
 /*End of Media Queries - Extra large devices -Non-Retina Screens
 ---------------------------------------------------------------- */
 /***************************************************************/
@@ -1922,7 +1938,7 @@ a.btn-secondary:focus {
   /* ------ Images ---------------*/
   /* Parallax Images */
   .no-landing-pg-hero-img {
-    background-image: url(/assets/images/no-landing-pg-hero-xxl.jpg) !important; }
+    background-image: url(../images/no-landing-pg-hero-xxl.jpg) !important; }
 
   /* 3D Box Images (Post Categories) */
   figure.box-fig {
@@ -1945,7 +1961,15 @@ a.btn-secondary:focus {
 
   /* Cards */
   .card-height {
-    height: 50rem; } }
+    height: 50rem; }
+
+  /* ------ start Animations style ---------------*/
+  /* ------ Fly in Text style-------*/
+  .fly-in-text {
+    top: 14%; }
+
+  .fly-in-text li {
+    font-size: 4.1rem; } }
 /*End of Media Queries - Extra large devices -Retina Screens
 ---------------------------------------------------------------- */
 
