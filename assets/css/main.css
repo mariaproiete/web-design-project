@@ -105,6 +105,10 @@ body {
   font-weight: 400;
   vertical-align: baseline; }
 
+main {
+  padding-top: 0;
+  padding-bottom: 5rem; }
+
 /* HEADINGS */
 h1, h2, h3, h4, h5, h6 {
   font-family: josefin-sansBold, Helvetica, Arial, sans-serif;
