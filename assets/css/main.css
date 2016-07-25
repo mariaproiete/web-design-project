@@ -219,6 +219,7 @@ small {
   font-family: josefin-sans, Helvetica, Arial, sans-serif; }
 
 strong {
+  font-family: josefin-sansBold, Helvetica, Arial, sans-serif;
   font-size: 100%;
   color: #1A5B55;
   font-weight: bold; }
@@ -935,7 +936,7 @@ h1.img-text {
   text-decoration: underline; }
 
 .navbar-dark .navbar-nav .active > .nav-link {
-  color: #39c9bb; }
+  color: #39c9bb !important; }
 
 .navbar-toggler {
   color: #39c9bb;
@@ -999,7 +1000,10 @@ h1.img-text {
   right: -5rem; }
 
 /* Social-Media ------------------------ */
-/*(See _buttons-labels-forms-scss file)*/
+nav .fa-2x {
+  font-size: 3.2rem !important;
+  color: #39c9bb !important; }
+
 /* Breadcrumbs----------------------------------------- */
 .breadcrumb {
   list-style: none;
