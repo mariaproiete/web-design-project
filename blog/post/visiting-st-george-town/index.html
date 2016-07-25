@@ -28,6 +28,7 @@
 
   <!--  Custom Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -39,9 +40,9 @@
     <div class="row lang-nav-search-box-sm-xl">
       <div class="col-xs-9 col-xs-offset-3">
         <!-- Search box -->
-        <form class="container-fluid form-inline search-box hidden-md-up">
+        <form class="container-fluid form-inline search-box hidden-md-up"">
           <input class="form-control" type="text" placeholder="Search">
-          <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <button class="btn btn-primary-outline" type="submit" value="search" aria-hidden="true"><i class="fa fa-search"><span class="screen-reader-only">Search Button</span></i></button>
         </form>            
         <!-- Language Navigation Bar --> 
         <span class="language-nav pull-lg-right hidden-md-up">
@@ -84,23 +85,23 @@
         <!-- Social Media Icons -->
          
         <a class="network-name" href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-          <i class="fa fa-facebook-square fa-2x"></i>                    
+          <i class="fa fa-facebook-square fa-2x"><span class="screen-reader-only">Facebook</span></i>                    
         </a>
          
         <a class="network-name" href="https://500px.com/maria-500px" target="_blank" title="500px">        
-          <i class="fa fa-500px fa-2x"></i>                    
+          <i class="fa fa-500px fa-2x"><span class="screen-reader-only">500px</span></i>                    
         </a>
          
         <a class="network-name" href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-          <i class="fa fa-instagram fa-2x"></i>                    
+          <i class="fa fa-instagram fa-2x"><span class="screen-reader-only">Instagram</span></i>                    
         </a>
          
         <a class="network-name" href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-          <i class="fa fa-youtube-square fa-2x"></i>                    
+          <i class="fa fa-youtube-square fa-2x"><span class="screen-reader-only">YouTube</span></i>                    
         </a>
          
         <a class="network-name" href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-          <i class="fa fa-linkedin-square fa-2x"></i>                    
+          <i class="fa fa-linkedin-square fa-2x"><span class="screen-reader-only">LinkedIn</span></i>                    
         </a>
                 
       </div> <!-- End of centered side --> 
@@ -114,8 +115,9 @@
         </span>
       <!-- Search box -->   
         <form class="form-inline search-box text-lg-right">
-          <input class="form-control" type="text" placeholder="Search">
-          <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <label class="screen-reader-only" for="searchBox">Search</label>
+          <input class="form-control" type="text" id="searchBox" placeholder="Search">
+          <button class="btn btn-primary-outline" type="submit" value="search"><i class="fa fa-search"><span class="screen-reader-only">Search Button</span></i></button>
         </form>         
       </div>
 
@@ -126,23 +128,23 @@
             <!-- Social Media Icons -->
              
             <a class="network-name" href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-              <i class="fa fa-facebook-square fa-2x"></i>                    
+              <i class="fa fa-facebook-square fa-2x"><span class="screen-reader-only">Facebook</span></i>                    
             </a>
              
             <a class="network-name" href="https://500px.com/maria-500px" target="_blank" title="500px">        
-              <i class="fa fa-500px fa-2x"></i>                    
+              <i class="fa fa-500px fa-2x"><span class="screen-reader-only">500px</span></i>                    
             </a>
              
             <a class="network-name" href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-              <i class="fa fa-instagram fa-2x"></i>                    
+              <i class="fa fa-instagram fa-2x"><span class="screen-reader-only">Instagram</span></i>                    
             </a>
              
             <a class="network-name" href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-              <i class="fa fa-youtube-square fa-2x"></i>                    
+              <i class="fa fa-youtube-square fa-2x"><span class="screen-reader-only">YouTube</span></i>                    
             </a>
              
             <a class="network-name" href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-              <i class="fa fa-linkedin-square fa-2x"></i>                    
+              <i class="fa fa-linkedin-square fa-2x"><span class="screen-reader-only">LinkedIn</span></i>                    
             </a>
                           
           </div> <!-- End of Row Social Media Icons -->         
@@ -153,7 +155,7 @@
           <div class="col-md-10">            
             <form class="form-inline search-box text-md-left">
               <input class="form-control" type="text" placeholder="Search">
-              <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              <button class="btn btn-primary-outline" type="submit" value="search"><i class="fa fa-search"><span class="screen-reader-only">Search Button</span></i></button>
             </form>  
           </div>
           <!-- Language Navigation Bar -->
@@ -242,7 +244,7 @@
 <br /></p>
 <div><!-- Carousel Section -->
 	<div class="container text-xs-center">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
         <!-- Indicators -->
         <ul class="carousel-indicators list-unstyled">
              
@@ -364,20 +366,20 @@
                 
             <div class="carousel-item">
                 
-                <img src="/web-design-project/assets//images/posts/2013-01-22-bda-st-george-town08.jpg" alt="" class="hidden-xs-down" />
-                <img src="/web-design-project/assets//images/posts/2013-01-22-bda-st-george-town08-sm.jpg" alt="" class="hidden-xs-up" />
+                <img src="/web-design-project/assets//images/posts/2013-01-22-bda-st-george-town08.jpg" alt="Somers Wharf entrance" class="hidden-xs-down" />
+                <img src="/web-design-project/assets//images/posts/2013-01-22-bda-st-george-town08-sm.jpg" alt="Somers Wharf entrance" class="hidden-xs-up" />
                 <div class="carousel-caption">
-                    <p class="inverse-color"></p>
+                    <p class="inverse-color">Somers Wharf entrance</p>
                 </div>
             </div>
                 
                 
             <div class="carousel-item">
                 
-                <img src="/web-design-project/assets//images/posts/2013-01-22-bda-st-george-town09.jpg" alt="Somers Wharf entrance" class="hidden-xs-down" />
-                <img src="/web-design-project/assets//images/posts/2013-01-22-bda-st-george-town09-sm.jpg" alt="Somers Wharf entrance" class="hidden-xs-up" />
+                <img src="/web-design-project/assets//images/posts/2013-01-22-bda-st-george-town09.jpg" alt="Cute and diffent bench at Somers Wharf" class="hidden-xs-down" />
+                <img src="/web-design-project/assets//images/posts/2013-01-22-bda-st-george-town09-sm.jpg" alt="Cute and diffent bench at Somers Wharf" class="hidden-xs-up" />
                 <div class="carousel-caption">
-                    <p class="inverse-color">Somers Wharf entrance</p>
+                    <p class="inverse-color">Cute and diffent bench at Somers Wharf</p>
                 </div>
             </div>
                 
@@ -422,7 +424,7 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
 						<!-- Last 3 posts-->
 <section class="container-fluid">
   <h2 class="inverse-color">Last Posts</h2>
-    <table class="table table-sm table-responsive secundary-rgba-bg">
+    <table class="table table-sm table-responsive light-turquoise-color-bg">
       <thead class="thead-default">
         <tr>
           <th>Image</th>
@@ -452,7 +454,7 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
          
           </td>
           <td>
-            <a href="/web-design-project/blog/post/visiting-st-george-town/" class="btn btn-secondary btn-sm text-xs-center small" title="Go to this post page" role="button">+ Info</a>
+            <a href="/web-design-project/blog/post/visiting-st-george-town/" class="btn btn-primary btn-sm text-xs-center small" title="Go to this post page" id="moreInfo0" role="button">+ Info</a>
           </td>
         </tr>
       
@@ -476,15 +478,15 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
          
           </td>
           <td>
-            <a href="/web-design-project/blog/post/leave-or-not-to-leave-portugal/" class="btn btn-secondary btn-sm text-xs-center small" title="Go to this post page" role="button">+ Info</a>
+            <a href="/web-design-project/blog/post/leave-or-not-to-leave-portugal/" class="btn btn-primary btn-sm text-xs-center small" title="Go to this post page" id="moreInfo1" role="button">+ Info</a>
           </td>
         </tr>
       
         <tr>
           <td>
             <figure>
-              <a href="/web-design-project/images/posts/2013-01-12-how-it-all-began-welcome-sign.jpg" title="/web-design-projectBermuda welcome sign">
-                <img src="/web-design-project/assets//images/posts/thumb/2013-01-12-how-it-all-began-welcome-sign.jpg" alt="/web-design-projectBermuda welcome sign" class="img-fluid img-thumbnail blog-post-img last-post-img"/>
+              <a href="/web-design-project/images/posts/2013-01-12-how-it-all-began-welcome-sign.jpg" title="/web-design-projectBermuda airoport welcome sign">
+                <img src="/web-design-project/assets//images/posts/thumb/2013-01-12-how-it-all-began-welcome-sign.jpg" alt="/web-design-projectBermuda airoport welcome sign" class="img-fluid img-thumbnail blog-post-img last-post-img"/>
               </a>            
             </figure>
           </td>
@@ -500,7 +502,7 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
          
           </td>
           <td>
-            <a href="/web-design-project/blog/post/how-it-all-began/" class="btn btn-secondary btn-sm text-xs-center small" title="Go to this post page" role="button">+ Info</a>
+            <a href="/web-design-project/blog/post/how-it-all-began/" class="btn btn-primary btn-sm text-xs-center small" title="Go to this post page" id="moreInfo2" role="button">+ Info</a>
           </td>
         </tr>
        
@@ -758,7 +760,7 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
               <label for="inputFirstName" class="form-control-label">First Name</label>
             </div>
             <div class="col-xs-12 col-sm-8">
-               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="First Name" aria-labelledby="inputFirstName">
             </div> 
         </div>
         <div class="row form-fluid">                            
@@ -766,7 +768,7 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
               <label for="inputLastName" class="form-control-label">surname</label>
             </div> 
             <div class="col-xs-12 col-sm-8">   
-               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="surname">
+               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="surname" aria-labelledby="inputLastName">
             </div>  
         </div>
         <div class="row form-fluid"> 
@@ -774,12 +776,12 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
               <label for="inputEmail" class="form-control-label">email</label>  
             </div>            
             <div class="col-xs-12 col-sm-8">
-               <input name="email" type="email" class="form-control" id="InputEmail" placeholder="email">  
+               <input name="email" type="email" class="form-control" id="inputEmail" placeholder="email" aria-labelledby="inputEmail">  
             </div> 
         </div>
         <div class="row form-fluid"> 
             <div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4">
-                <button value="Subscribe" type="submit" class="btn btn-primary">Subscribe</button>  
+                <button type="submit" class="btn btn-secondary">Subscribe</button>  
             </div> 
         </div>
     </form>
@@ -945,7 +947,7 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
                          
                     </div>
                     <!-- <button type="button" class="btn btn-primary pull-sm-right">More links</button>  -->
-                    <a class="btn btn-primary pull-sm-right" href="/web-design-project/links/" role="button" title="Go to Links Page">More links</a>             
+                    <a class="btn btn-secondary pull-sm-right" href="/web-design-project/links/" role="button" title="Go to Links Page">More links</a>             
                 </div>                
 
             <hr class="hidden-lg-up">    
@@ -960,7 +962,7 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
               <label for="inputFirstName" class="form-control-label">First Name</label>
             </div>
             <div class="col-xs-12 col-sm-8">
-               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="First Name" aria-labelledby="inputFirstName">
             </div> 
         </div>
         <div class="row form-fluid">                            
@@ -968,7 +970,7 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
               <label for="inputLastName" class="form-control-label">surname</label>
             </div> 
             <div class="col-xs-12 col-sm-8">   
-               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="surname">
+               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="surname" aria-labelledby="inputLastName">
             </div>  
         </div>
         <div class="row form-fluid"> 
@@ -976,12 +978,12 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
               <label for="inputEmail" class="form-control-label">email</label>  
             </div>            
             <div class="col-xs-12 col-sm-8">
-               <input name="email" type="email" class="form-control" id="InputEmail" placeholder="email">  
+               <input name="email" type="email" class="form-control" id="inputEmail" placeholder="email" aria-labelledby="inputEmail">  
             </div> 
         </div>
         <div class="row form-fluid"> 
             <div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4">
-                <button value="Subscribe" type="submit" class="btn btn-primary">Subscribe</button>  
+                <button type="submit" class="btn btn-secondary">Subscribe</button>  
             </div> 
         </div>
     </form>
@@ -997,23 +999,23 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
                         <!-- Social Media Icons (Medium Screens)-->
                          
                         <a href="/web-design-projecthttps://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-                            <i class="fa fa-facebook-square fa-1x"></i>                    
+                            <i class="fa fa-facebook-square fa-1x"><span class="screen-reader-only">Facebook</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://500px.com/maria-500px" target="_blank" title="500px">        
-                            <i class="fa fa-500px fa-1x"></i>                    
+                            <i class="fa fa-500px fa-1x"><span class="screen-reader-only">500px</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-                            <i class="fa fa-instagram fa-1x"></i>                    
+                            <i class="fa fa-instagram fa-1x"><span class="screen-reader-only">Instagram</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-                            <i class="fa fa-youtube-square fa-1x"></i>                    
+                            <i class="fa fa-youtube-square fa-1x"><span class="screen-reader-only">YouTube</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-                            <i class="fa fa-linkedin-square fa-1x"></i>                    
+                            <i class="fa fa-linkedin-square fa-1x"><span class="screen-reader-only">LinkedIn</span></i>                    
                         </a>
                                                     
                     </div>                    
@@ -1070,23 +1072,23 @@ It’s after 6pm and I still have to take another BUS to get home, pass by the g
                 <!-- Social Media Icons -->
                  
                 <a href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-                  <i class="fa fa-facebook-square fa-1x"></i>                    
+                  <i class="fa fa-facebook-square fa-1x"><span class="screen-reader-only">Facebook</span></i>                    
                 </a>
                  
                 <a href="https://500px.com/maria-500px" target="_blank" title="500px">        
-                  <i class="fa fa-500px fa-1x"></i>                    
+                  <i class="fa fa-500px fa-1x"><span class="screen-reader-only">500px</span></i>                    
                 </a>
                  
                 <a href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-                  <i class="fa fa-instagram fa-1x"></i>                    
+                  <i class="fa fa-instagram fa-1x"><span class="screen-reader-only">Instagram</span></i>                    
                 </a>
                  
                 <a href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-                  <i class="fa fa-youtube-square fa-1x"></i>                    
+                  <i class="fa fa-youtube-square fa-1x"><span class="screen-reader-only">YouTube</span></i>                    
                 </a>
                  
                 <a href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-                  <i class="fa fa-linkedin-square fa-1x"></i>                    
+                  <i class="fa fa-linkedin-square fa-1x"><span class="screen-reader-only">LinkedIn</span></i>                    
                 </a>
                  				  
     		</div> 

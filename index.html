@@ -26,6 +26,7 @@
 
   <!--  Custom Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -37,9 +38,9 @@
     <div class="row lang-nav-search-box-sm-xl">
       <div class="col-xs-9 col-xs-offset-3">
         <!-- Search box -->
-        <form class="container-fluid form-inline search-box hidden-md-up">
+        <form class="container-fluid form-inline search-box hidden-md-up"">
           <input class="form-control" type="text" placeholder="Search">
-          <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <button class="btn btn-primary-outline" type="submit" value="search" aria-hidden="true"><i class="fa fa-search"><span class="screen-reader-only">Search Button</span></i></button>
         </form>            
         <!-- Language Navigation Bar --> 
         <span class="language-nav pull-lg-right hidden-md-up">
@@ -82,23 +83,23 @@
         <!-- Social Media Icons -->
          
         <a class="network-name" href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-          <i class="fa fa-facebook-square fa-2x"></i>                    
+          <i class="fa fa-facebook-square fa-2x"><span class="screen-reader-only">Facebook</span></i>                    
         </a>
          
         <a class="network-name" href="https://500px.com/maria-500px" target="_blank" title="500px">        
-          <i class="fa fa-500px fa-2x"></i>                    
+          <i class="fa fa-500px fa-2x"><span class="screen-reader-only">500px</span></i>                    
         </a>
          
         <a class="network-name" href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-          <i class="fa fa-instagram fa-2x"></i>                    
+          <i class="fa fa-instagram fa-2x"><span class="screen-reader-only">Instagram</span></i>                    
         </a>
          
         <a class="network-name" href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-          <i class="fa fa-youtube-square fa-2x"></i>                    
+          <i class="fa fa-youtube-square fa-2x"><span class="screen-reader-only">YouTube</span></i>                    
         </a>
          
         <a class="network-name" href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-          <i class="fa fa-linkedin-square fa-2x"></i>                    
+          <i class="fa fa-linkedin-square fa-2x"><span class="screen-reader-only">LinkedIn</span></i>                    
         </a>
                 
       </div> <!-- End of centered side --> 
@@ -112,8 +113,9 @@
         </span>
       <!-- Search box -->   
         <form class="form-inline search-box text-lg-right">
-          <input class="form-control" type="text" placeholder="Search">
-          <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <label class="screen-reader-only" for="searchBox">Search</label>
+          <input class="form-control" type="text" id="searchBox" placeholder="Search">
+          <button class="btn btn-primary-outline" type="submit" value="search"><i class="fa fa-search"><span class="screen-reader-only">Search Button</span></i></button>
         </form>         
       </div>
 
@@ -124,23 +126,23 @@
             <!-- Social Media Icons -->
              
             <a class="network-name" href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-              <i class="fa fa-facebook-square fa-2x"></i>                    
+              <i class="fa fa-facebook-square fa-2x"><span class="screen-reader-only">Facebook</span></i>                    
             </a>
              
             <a class="network-name" href="https://500px.com/maria-500px" target="_blank" title="500px">        
-              <i class="fa fa-500px fa-2x"></i>                    
+              <i class="fa fa-500px fa-2x"><span class="screen-reader-only">500px</span></i>                    
             </a>
              
             <a class="network-name" href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-              <i class="fa fa-instagram fa-2x"></i>                    
+              <i class="fa fa-instagram fa-2x"><span class="screen-reader-only">Instagram</span></i>                    
             </a>
              
             <a class="network-name" href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-              <i class="fa fa-youtube-square fa-2x"></i>                    
+              <i class="fa fa-youtube-square fa-2x"><span class="screen-reader-only">YouTube</span></i>                    
             </a>
              
             <a class="network-name" href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-              <i class="fa fa-linkedin-square fa-2x"></i>                    
+              <i class="fa fa-linkedin-square fa-2x"><span class="screen-reader-only">LinkedIn</span></i>                    
             </a>
                           
           </div> <!-- End of Row Social Media Icons -->         
@@ -151,7 +153,7 @@
           <div class="col-md-10">            
             <form class="form-inline search-box text-md-left">
               <input class="form-control" type="text" placeholder="Search">
-              <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              <button class="btn btn-primary-outline" type="submit" value="search"><i class="fa fa-search"><span class="screen-reader-only">Search Button</span></i></button>
             </form>  
           </div>
           <!-- Language Navigation Bar -->
@@ -223,8 +225,8 @@
 	<div class="row">	
 		<!-- About Me -->
 		<div class="col-xs-12 col-lg-6 container-left">
-			<section class="text-bg text-bg-left primary-color-bg">
-				<h2 class="inverse-color">About Me</h2>
+			<section class="text-bg text-bg-left gray-color-bg">
+				<h2>About Me</h2>
 				<div class="row">
 					<!-- Blogger's photo -->
 					<div class="col-xs-12 col-sm-4 col-lg-5 col-xl-4">
@@ -232,21 +234,21 @@
 					</div>
 					<!-- Blogger's details -->
 					<div class="col-xs-12 col-sm-8 col-lg-7 col-xl-8">
-						<h3 class="inverse-color">Life Motto</h3>
-						<blockquote class="inverse-color"><p class="inverse-color">&#8220; Do-so is better than say-so. So, be kind and present for the people in your life and willing to walk an extra mile to help someone or achieve your goals &#8221;</p><cite title="quote author">Maria Proiete</cite></blockquote>			
+						<h3>Life Motto</h3>
+						<blockquote><p>&#8220; Do-so is better than say-so. So, be kind and present for the people in your life and willing to walk an extra mile to help someone or achieve your goals &#8221;</p><cite title="quote author">Maria Proiete</cite></blockquote>			
 					</div>
 					<div class="row container-fluid hidden-xs-down">
 						<div class="col-xs-12">
-							<h3 class="inverse-color">Personal History</h3>
-							<p class="inverse-color">I was born and raised in Lisbon/Portugal. As an adult lived in Luanda/Angola, in Santos/Brazil. I am currently living in the beautiful island of Bermuda.</p>
+							<h3>Personal History</h3>
+							<p>I was born and raised in Lisbon/Portugal. As an adult lived in Luanda/Angola, in Santos/Brazil. I am currently living in the beautiful island of Bermuda.</p>
 						</div>
 						<div class="col-xs-12 hidden-md-down">
-							<h3 class="inverse-color">Things I like and Hobbies</h3>
-							<p class="inverse-color">I love photography, hanging out with my family and friends, learning about other cultures and to experience new foods and new approaches to do stuff, and to go to the cinema and watch TV shows. Despite being extroverted also like my privacy, quiet times at home is where I'm able to be by myself reading a good book, listening to music, or studying about a new cool technology, sociology or history; or go out alone to walk or to take pictures. My Achilles' heel is eating comfortable foods and I have a sweet tooth.</p>
+							<h3>Things I like and Hobbies</h3>
+							<p>I love photography, hanging out with my family and friends, learning about other cultures and to experience new foods and new approaches to do stuff, and to go to the cinema and watch TV shows. Despite being extroverted also like my privacy, quiet times at home is where I'm able to be by myself reading a good book, listening to music, or studying about a new cool technology, sociology or history; or go out alone to walk or to take pictures. My Achilles' heel is eating comfortable foods and I have a sweet tooth.</p>
 						</div>	
 						<div class="col-xs-12 hidden-lg-down">
-							<h4 class="inverse-color">As a photographer</h4>
-							<p class="inverse-color">You can see (or buy) my last photography work at <a href="https://500px.com/maria-500px" title="Photos at 500px.com">500px.com</a> and <a href="http://www.istockphoto.com/portfolio/MariaProiete" title="Photos at iStockPhoto.com">iStockPhoto.com</a> and on this website all the photos used that have no credit are mine. Before being a photographer hobbyist I used to post the photos I had snapped on <a href="https://www.flickr.com/photos/mariaproiete" title="Photos at Flirck">Flirck</a>.</p>
+							<h4>As a photographer</h4>
+							<p>You can see (or buy) my last photography work at <a classe="inverse-color" href="https://500px.com/maria-500px" title="Photos at 500px.com">500px.com</a> and <a classe="inverse-color" href="http://www.istockphoto.com/portfolio/MariaProiete" title="Photos at iStockPhoto.com">iStockPhoto.com</a> and on this website all the photos used that have no credit are mine. Before being a photographer hobbyist I used to post the photos I had snapped on <a href="https://www.flickr.com/photos/mariaproiete" title="Photos at Flirck">Flirck</a>.</p>
 						</div>									
 					</div>        
 				</div>
@@ -255,7 +257,7 @@
 		</div><!-- End of the About Me -->
 		<!-- About Bermuda -->
 		<div class="col-xs-12 col-lg-6 container-right">
-			<section class="text-bg text-bg-right other-color-bg">
+			<section class="text-bg text-bg-right light-turquoise-color-bg">
 				<h2>About Bermuda</h2>
 				<p>Bermuda is a British island territory in the North Atlantic, off the eastern U.S., known for its distinctive blend of British and American culture and pink-sand beaches such as Elbow Beach and Horseshoe Bay. <span class="small text-mute">(source&#58; Wikipedia)</span></p>
 
@@ -339,7 +341,7 @@
 						</div>
 					</div>				
 				</div>
-				<a class="btn btn-secondary pull-sm-right" href="/web-design-project/about/#about-bda" title="Go to About Page" role="button">more info</a> 
+				<a class="btn btn-primary pull-sm-right" href="/web-design-project/about/#about-bda" title="Go to About Page" role="button">more info</a> 
 				</div>
 			</section>
 		</div> <!-- End of the About Bermuda -->	
@@ -362,11 +364,11 @@
 				<figure class="box-fig">
 					<h3 class="box-title">Bermuda Curiosities</h3>
 					<!-- Images to Small and XS screens -->	
-					<a href="" title="Bermuda white roof"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/bermuda-curiosities-sm.jpg" alt="Bermuda white roof"></a>
+					<a href="" title="Click see the category Bermuda white roof"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/bermuda-curiosities-sm.jpg" alt="Bermuda white roof"></a>
 					<!-- Images to Medium, Large and XL screens -->	
-					<a href="" title="Bermuda white roof"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/bermuda-curiosities-lg.jpg" alt="Bermuda white roof"></a>							    
+					<a href="" title="Click see the category Bermuda white roof"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/bermuda-curiosities-lg.jpg" alt="Bermuda white roof"></a>							    
 			    <figcaption class="box-caption">
-			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Bermuda Curiosities">Bermuda Curiosities</a></h4>
+			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Click see the category Bermuda Curiosities">Bermuda Curiosities</a></h4>
 			        <p class="inverse-color">Curiosities and specificities about Bermuda, from the way the water is catch in the island and the typical dress code.</p>
 			    </figcaption>
 				</figure>							
@@ -376,11 +378,11 @@
 				<figure class="box-fig">
 					<h3 class="box-title">Planning a trip to Bermuda</h3>
 					<!-- Images to Small and XS screens -->	
-					<a href="" title="Coco Reefs beach"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/planning-a-trip-to-bermuda-sm.jpg" alt="Coco Reefs beach"></a>
+					<a href="" title="Click see the category Coco Reefs beach"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/planning-a-trip-to-bermuda-sm.jpg" alt="Coco Reefs beach"></a>
 					<!-- Images to Medium, Large and XL screens -->	
-					<a href="" title="Coco Reefs beach"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/planning-a-trip-to-bermuda-lg.jpg" alt="Coco Reefs beach"></a>							    
+					<a href="" title="Click see the category Coco Reefs beach"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/planning-a-trip-to-bermuda-lg.jpg" alt="Coco Reefs beach"></a>							    
 			    <figcaption class="box-caption">
-			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Planning a trip to Bermuda">Planning a trip to Bermuda</a></h4>
+			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Click see the category Planning a trip to Bermuda">Planning a trip to Bermuda</a></h4>
 			        <p class="inverse-color">What to see and do while your visiting Bermuda.</p>
 			    </figcaption>
 				</figure>							
@@ -390,11 +392,11 @@
 				<figure class="box-fig">
 					<h3 class="box-title">Bermuda Nature, parks, trees, flowers</h3>
 					<!-- Images to Small and XS screens -->	
-					<a href="" title="White Hibisco flower"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/bermuda-nature-flowers-sm.jpg" alt="White Hibisco flower"></a>
+					<a href="" title="Click see the category White Hibisco flower"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/bermuda-nature-flowers-sm.jpg" alt="White Hibisco flower"></a>
 					<!-- Images to Medium, Large and XL screens -->	
-					<a href="" title="White Hibisco flower"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/bermuda-nature-flowers-lg.jpg" alt="White Hibisco flower"></a>							    
+					<a href="" title="Click see the category White Hibisco flower"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/bermuda-nature-flowers-lg.jpg" alt="White Hibisco flower"></a>							    
 			    <figcaption class="box-caption">
-			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Bermuda Nature, parks, trees, flowers">Bermuda Nature, parks, trees, flowers</a></h4>
+			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Click see the category Bermuda Nature, parks, trees, flowers">Bermuda Nature, parks, trees, flowers</a></h4>
 			        <p class="inverse-color">Know more about Bermuda flora & fauna, nature reserves, national parks and gardens.</p>
 			    </figcaption>
 				</figure>							
@@ -404,11 +406,11 @@
 				<figure class="box-fig">
 					<h3 class="box-title">Bermuda culture, festivals and history</h3>
 					<!-- Images to Small and XS screens -->	
-					<a href="" title="Bermuda Gombeys"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/bda-culture-festivals-and-history-sm.jpg" alt="Bermuda Gombeys"></a>
+					<a href="" title="Click see the category Bermuda Gombeys"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/bda-culture-festivals-and-history-sm.jpg" alt="Bermuda Gombeys"></a>
 					<!-- Images to Medium, Large and XL screens -->	
-					<a href="" title="Bermuda Gombeys"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/bda-culture-festivals-and-history-lg.jpg" alt="Bermuda Gombeys"></a>							    
+					<a href="" title="Click see the category Bermuda Gombeys"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/bda-culture-festivals-and-history-lg.jpg" alt="Bermuda Gombeys"></a>							    
 			    <figcaption class="box-caption">
-			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Bermuda culture, festivals and history">Bermuda culture, festivals and history</a></h4>
+			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Click see the category Bermuda culture, festivals and history">Bermuda culture, festivals and history</a></h4>
 			        <p class="inverse-color">Learn more about Bermuda culture, its festivals, history, people and art.</p>
 			    </figcaption>
 				</figure>							
@@ -418,11 +420,11 @@
 				<figure class="box-fig">
 					<h3 class="box-title">Hurricanes and Storms</h3>
 					<!-- Images to Small and XS screens -->	
-					<a href="" title="Palm trees moving with the wind"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/hurricanes-and-storms-sm.jpg" alt="Palm trees moving with the wind"></a>
+					<a href="" title="Click see the category Palm trees moving with the wind"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/hurricanes-and-storms-sm.jpg" alt="Palm trees moving with the wind"></a>
 					<!-- Images to Medium, Large and XL screens -->	
-					<a href="" title="Palm trees moving with the wind"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/hurricanes-and-storms-lg.jpg" alt="Palm trees moving with the wind"></a>							    
+					<a href="" title="Click see the category Palm trees moving with the wind"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/hurricanes-and-storms-lg.jpg" alt="Palm trees moving with the wind"></a>							    
 			    <figcaption class="box-caption">
-			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Hurricanes and Storms">Hurricanes and Storms</a></h4>
+			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Click see the category Hurricanes and Storms">Hurricanes and Storms</a></h4>
 			        <p class="inverse-color">Hurricanes and Storms preparations, curiosities and facts.</p>
 			    </figcaption>
 				</figure>							
@@ -432,11 +434,11 @@
 				<figure class="box-fig">
 					<h3 class="box-title">Restaurants and night out</h3>
 					<!-- Images to Small and XS screens -->	
-					<a href="" title="Front Street restaurants and stores"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/restaurantes-and-night-out-sm.jpg" alt="Front Street restaurants and stores"></a>
+					<a href="" title="Click see the category Front Street restaurants and stores"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/restaurantes-and-night-out-sm.jpg" alt="Front Street restaurants and stores"></a>
 					<!-- Images to Medium, Large and XL screens -->	
-					<a href="" title="Front Street restaurants and stores"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/restaurantes-and-night-out-lg.jpg" alt="Front Street restaurants and stores"></a>							    
+					<a href="" title="Click see the category Front Street restaurants and stores"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/restaurantes-and-night-out-lg.jpg" alt="Front Street restaurants and stores"></a>							    
 			    <figcaption class="box-caption">
-			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Restaurants and night out">Restaurants and night out</a></h4>
+			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Click see the category Restaurants and night out">Restaurants and night out</a></h4>
 			        <p class="inverse-color">Where to eat and go to a night out.</p>
 			    </figcaption>
 				</figure>							
@@ -446,11 +448,11 @@
 				<figure class="box-fig">
 					<h3 class="box-title">Working and Moving to Bermuda</h3>
 					<!-- Images to Small and XS screens -->	
-					<a href="" title="Comercial Building"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/working-and-moving-to-bermuda-sm.jpg" alt="Comercial Building"></a>
+					<a href="" title="Click see the category Comercial Building"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/working-and-moving-to-bermuda-sm.jpg" alt="Comercial Building"></a>
 					<!-- Images to Medium, Large and XL screens -->	
-					<a href="" title="Comercial Building"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/working-and-moving-to-bermuda-lg.jpg" alt="Comercial Building"></a>							    
+					<a href="" title="Click see the category Comercial Building"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/working-and-moving-to-bermuda-lg.jpg" alt="Comercial Building"></a>							    
 			    <figcaption class="box-caption">
-			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Working and Moving to Bermuda">Working and Moving to Bermuda</a></h4>
+			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Click see the category Working and Moving to Bermuda">Working and Moving to Bermuda</a></h4>
 			        <p class="inverse-color">To all Newcomers to Bermuda, personal experience to move to ths island, tips and help to settling down here.</p>
 			    </figcaption>
 				</figure>							
@@ -460,11 +462,11 @@
 				<figure class="box-fig">
 					<h3 class="box-title">Shopping in Bermuda</h3>
 					<!-- Images to Small and XS screens -->	
-					<a href="" title="Washington mall building"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/shopping-in-bermuda-sm.jpg" alt="Washington mall building"></a>
+					<a href="" title="Click see the category Washington mall building"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/shopping-in-bermuda-sm.jpg" alt="Washington mall building"></a>
 					<!-- Images to Medium, Large and XL screens -->	
-					<a href="" title="Washington mall building"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/shopping-in-bermuda-lg.jpg" alt="Washington mall building"></a>							    
+					<a href="" title="Click see the category Washington mall building"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/shopping-in-bermuda-lg.jpg" alt="Washington mall building"></a>							    
 			    <figcaption class="box-caption">
-			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Shopping in Bermuda">Shopping in Bermuda</a></h4>
+			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Click see the category Shopping in Bermuda">Shopping in Bermuda</a></h4>
 			        <p class="inverse-color">Where to shop, how to save money and get discounts, import things and dutties.</p>
 			    </figcaption>
 				</figure>							
@@ -474,11 +476,11 @@
 				<figure class="box-fig">
 					<h3 class="box-title">Portuguese Comunity in Bermuda</h3>
 					<!-- Images to Small and XS screens -->	
-					<a href="" title="Vasco da Gama Building"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/portuguese-comunity-bermuda-sm.jpg" alt="Vasco da Gama Building"></a>
+					<a href="" title="Click see the category Vasco da Gama Building"><img class="box-img img-fluid hidden-md-up" src="/web-design-project/assets//images/posts/categories/portuguese-comunity-bermuda-sm.jpg" alt="Vasco da Gama Building"></a>
 					<!-- Images to Medium, Large and XL screens -->	
-					<a href="" title="Vasco da Gama Building"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/portuguese-comunity-bermuda-lg.jpg" alt="Vasco da Gama Building"></a>							    
+					<a href="" title="Click see the category Vasco da Gama Building"><img class="box-img img-fluid hidden-sm-down" src="/web-design-project/assets//images/posts/categories/portuguese-comunity-bermuda-lg.jpg" alt="Vasco da Gama Building"></a>							    
 			    <figcaption class="box-caption">
-			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Portuguese Comunity in Bermuda">Portuguese Comunity in Bermuda</a></h4>
+			        <h4 class="inverse-color"><a class="box-caption" href="/web-design-project/coming-soon/" title="Click see the category Portuguese Comunity in Bermuda">Portuguese Comunity in Bermuda</a></h4>
 			        <p class="inverse-color">Portuguese imigration to Bermuda, festivals and culture.</p>
 			    </figcaption>
 				</figure>							
@@ -496,7 +498,7 @@
 						<!-- Last 3 posts-->
 <section class="container-fluid">
   <h2 class="inverse-color">Last Posts</h2>
-    <table class="table table-sm table-responsive secundary-rgba-bg">
+    <table class="table table-sm table-responsive light-turquoise-color-bg">
       <thead class="thead-default">
         <tr>
           <th>Image</th>
@@ -533,7 +535,7 @@
           
           </td>
           <td>
-            <a href="/web-design-project/blog/post/visiting-st-george-town/" class="btn btn-secondary btn-sm text-xs-center small" title="Go to this post page" role="button">+ Info</a>
+            <a href="/web-design-project/blog/post/visiting-st-george-town/" class="btn btn-primary btn-sm text-xs-center small" title="Go to this post page" id="moreInfo0" role="button">+ Info</a>
           </td>
         </tr>
       
@@ -564,15 +566,15 @@
           
           </td>
           <td>
-            <a href="/web-design-project/blog/post/leave-or-not-to-leave-portugal/" class="btn btn-secondary btn-sm text-xs-center small" title="Go to this post page" role="button">+ Info</a>
+            <a href="/web-design-project/blog/post/leave-or-not-to-leave-portugal/" class="btn btn-primary btn-sm text-xs-center small" title="Go to this post page" id="moreInfo1" role="button">+ Info</a>
           </td>
         </tr>
       
         <tr>
           <td>
             <figure>
-              <a href="/web-design-project/images/posts/2013-01-12-how-it-all-began-welcome-sign.jpg" title="/web-design-projectBermuda welcome sign">
-                <img src="/web-design-project/assets//images/posts/thumb/2013-01-12-how-it-all-began-welcome-sign.jpg" alt="/web-design-projectBermuda welcome sign" class="img-fluid img-thumbnail blog-post-img last-post-img"/>
+              <a href="/web-design-project/images/posts/2013-01-12-how-it-all-began-welcome-sign.jpg" title="/web-design-projectBermuda airoport welcome sign">
+                <img src="/web-design-project/assets//images/posts/thumb/2013-01-12-how-it-all-began-welcome-sign.jpg" alt="/web-design-projectBermuda airoport welcome sign" class="img-fluid img-thumbnail blog-post-img last-post-img"/>
               </a>            
             </figure>
           </td>
@@ -595,7 +597,7 @@
           
           </td>
           <td>
-            <a href="/web-design-project/blog/post/how-it-all-began/" class="btn btn-secondary btn-sm text-xs-center small" title="Go to this post page" role="button">+ Info</a>
+            <a href="/web-design-project/blog/post/how-it-all-began/" class="btn btn-primary btn-sm text-xs-center small" title="Go to this post page" id="moreInfo2" role="button">+ Info</a>
           </td>
         </tr>
        
@@ -1010,7 +1012,7 @@
                          
                     </div>
                     <!-- <button type="button" class="btn btn-primary pull-sm-right">More links</button>  -->
-                    <a class="btn btn-primary pull-sm-right" href="/web-design-project/links/" role="button" title="Go to Links Page">More links</a>             
+                    <a class="btn btn-secondary pull-sm-right" href="/web-design-project/links/" role="button" title="Go to Links Page">More links</a>             
                 </div>                
 
             <hr class="hidden-lg-up">    
@@ -1025,7 +1027,7 @@
               <label for="inputFirstName" class="form-control-label">First Name</label>
             </div>
             <div class="col-xs-12 col-sm-8">
-               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="First Name" aria-labelledby="inputFirstName">
             </div> 
         </div>
         <div class="row form-fluid">                            
@@ -1033,7 +1035,7 @@
               <label for="inputLastName" class="form-control-label">surname</label>
             </div> 
             <div class="col-xs-12 col-sm-8">   
-               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="surname">
+               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="surname" aria-labelledby="inputLastName">
             </div>  
         </div>
         <div class="row form-fluid"> 
@@ -1041,12 +1043,12 @@
               <label for="inputEmail" class="form-control-label">email</label>  
             </div>            
             <div class="col-xs-12 col-sm-8">
-               <input name="email" type="email" class="form-control" id="InputEmail" placeholder="email">  
+               <input name="email" type="email" class="form-control" id="inputEmail" placeholder="email" aria-labelledby="inputEmail">  
             </div> 
         </div>
         <div class="row form-fluid"> 
             <div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4">
-                <button value="Subscribe" type="submit" class="btn btn-primary">Subscribe</button>  
+                <button type="submit" class="btn btn-secondary">Subscribe</button>  
             </div> 
         </div>
     </form>
@@ -1062,23 +1064,23 @@
                         <!-- Social Media Icons (Medium Screens)-->
                          
                         <a href="/web-design-projecthttps://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-                            <i class="fa fa-facebook-square fa-1x"></i>                    
+                            <i class="fa fa-facebook-square fa-1x"><span class="screen-reader-only">Facebook</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://500px.com/maria-500px" target="_blank" title="500px">        
-                            <i class="fa fa-500px fa-1x"></i>                    
+                            <i class="fa fa-500px fa-1x"><span class="screen-reader-only">500px</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-                            <i class="fa fa-instagram fa-1x"></i>                    
+                            <i class="fa fa-instagram fa-1x"><span class="screen-reader-only">Instagram</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-                            <i class="fa fa-youtube-square fa-1x"></i>                    
+                            <i class="fa fa-youtube-square fa-1x"><span class="screen-reader-only">YouTube</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-                            <i class="fa fa-linkedin-square fa-1x"></i>                    
+                            <i class="fa fa-linkedin-square fa-1x"><span class="screen-reader-only">LinkedIn</span></i>                    
                         </a>
                                                     
                     </div>                    
@@ -1135,23 +1137,23 @@
                 <!-- Social Media Icons -->
                  
                 <a href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-                  <i class="fa fa-facebook-square fa-1x"></i>                    
+                  <i class="fa fa-facebook-square fa-1x"><span class="screen-reader-only">Facebook</span></i>                    
                 </a>
                  
                 <a href="https://500px.com/maria-500px" target="_blank" title="500px">        
-                  <i class="fa fa-500px fa-1x"></i>                    
+                  <i class="fa fa-500px fa-1x"><span class="screen-reader-only">500px</span></i>                    
                 </a>
                  
                 <a href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-                  <i class="fa fa-instagram fa-1x"></i>                    
+                  <i class="fa fa-instagram fa-1x"><span class="screen-reader-only">Instagram</span></i>                    
                 </a>
                  
                 <a href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-                  <i class="fa fa-youtube-square fa-1x"></i>                    
+                  <i class="fa fa-youtube-square fa-1x"><span class="screen-reader-only">YouTube</span></i>                    
                 </a>
                  
                 <a href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-                  <i class="fa fa-linkedin-square fa-1x"></i>                    
+                  <i class="fa fa-linkedin-square fa-1x"><span class="screen-reader-only">LinkedIn</span></i>                    
                 </a>
                  				  
     		</div> 

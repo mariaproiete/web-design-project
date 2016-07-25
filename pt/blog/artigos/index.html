@@ -28,6 +28,7 @@
 
   <!--  Custom Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -39,9 +40,9 @@
     <div class="row lang-nav-search-box-sm-xl">
       <div class="col-xs-9 col-xs-offset-3">
         <!-- Search box -->
-        <form class="container-fluid form-inline search-box hidden-md-up">
+        <form class="container-fluid form-inline search-box hidden-md-up"">
           <input class="form-control" type="text" placeholder="Procurar">
-          <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <button class="btn btn-primary-outline" type="submit" value="search" aria-hidden="true"><i class="fa fa-search" aria-hidden="true"></i></button>
         </form>            
         <!-- Language Navigation Bar --> 
         <span class="language-nav pull-lg-right hidden-md-up">
@@ -84,23 +85,23 @@
         <!-- Social Media Icons -->
          
         <a class="network-name" href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-          <i class="fa fa-facebook-square fa-2x"></i>                    
+          <i class="fa fa-facebook-square fa-2x"><span class="screen-reader-only">Facebook</span></i>                    
         </a>
          
         <a class="network-name" href="https://500px.com/maria-500px" target="_blank" title="500px">        
-          <i class="fa fa-500px fa-2x"></i>                    
+          <i class="fa fa-500px fa-2x"><span class="screen-reader-only">500px</span></i>                    
         </a>
          
         <a class="network-name" href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-          <i class="fa fa-instagram fa-2x"></i>                    
+          <i class="fa fa-instagram fa-2x"><span class="screen-reader-only">Instagram</span></i>                    
         </a>
          
         <a class="network-name" href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-          <i class="fa fa-youtube-square fa-2x"></i>                    
+          <i class="fa fa-youtube-square fa-2x"><span class="screen-reader-only">YouTube</span></i>                    
         </a>
          
         <a class="network-name" href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-          <i class="fa fa-linkedin-square fa-2x"></i>                    
+          <i class="fa fa-linkedin-square fa-2x"><span class="screen-reader-only">LinkedIn</span></i>                    
         </a>
                 
       </div> <!-- End of centered side --> 
@@ -114,8 +115,9 @@
         </span>
       <!-- Search box -->   
         <form class="form-inline search-box text-lg-right">
-          <input class="form-control" type="text" placeholder="Procurar">
-          <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <label class="screen-reader-only" for="searchBox">Procurar</label>
+          <input class="form-control" type="text" id="searchBox" placeholder="Procurar">
+          <button class="btn btn-primary-outline" type="submit" value="search"><i class="fa fa-search" aria-hidden="true"></i></button>
         </form>         
       </div>
 
@@ -126,23 +128,23 @@
             <!-- Social Media Icons -->
              
             <a class="network-name" href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-              <i class="fa fa-facebook-square fa-2x"></i>                    
+              <i class="fa fa-facebook-square fa-2x"><span class="screen-reader-only">Facebook</span></i>                    
             </a>
              
             <a class="network-name" href="https://500px.com/maria-500px" target="_blank" title="500px">        
-              <i class="fa fa-500px fa-2x"></i>                    
+              <i class="fa fa-500px fa-2x"><span class="screen-reader-only">500px</span></i>                    
             </a>
              
             <a class="network-name" href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-              <i class="fa fa-instagram fa-2x"></i>                    
+              <i class="fa fa-instagram fa-2x"><span class="screen-reader-only">Instagram</span></i>                    
             </a>
              
             <a class="network-name" href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-              <i class="fa fa-youtube-square fa-2x"></i>                    
+              <i class="fa fa-youtube-square fa-2x"><span class="screen-reader-only">YouTube</span></i>                    
             </a>
              
             <a class="network-name" href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-              <i class="fa fa-linkedin-square fa-2x"></i>                    
+              <i class="fa fa-linkedin-square fa-2x"><span class="screen-reader-only">LinkedIn</span></i>                    
             </a>
                           
           </div> <!-- End of Row Social Media Icons -->         
@@ -153,7 +155,7 @@
           <div class="col-md-10">            
             <form class="form-inline search-box text-md-left">
               <input class="form-control" type="text" placeholder="Procurar">
-              <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              <button class="btn btn-primary-outline" type="submit" value="search"><i class="fa fa-search" aria-hidden="true"></i></button>
             </form>  
           </div>
           <!-- Language Navigation Bar -->
@@ -408,7 +410,7 @@
                          
                     </div>
                     <!-- <button type="button" class="btn btn-primary pull-sm-right">Mais links</button>  -->
-                    <a class="btn btn-primary pull-sm-right" href="/web-design-project/pt/links/" role="button" title="Go to Links Page">Mais links</a>             
+                    <a class="btn btn-secondary pull-sm-right" href="/web-design-project/pt/links/" role="button" title="Go to Links Page">Mais links</a>             
                 </div>                
 
             <hr class="hidden-lg-up">    
@@ -423,7 +425,7 @@
               <label for="inputFirstName" class="form-control-label">Primeiro Nome</label>
             </div>
             <div class="col-xs-12 col-sm-8">
-               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="Primeiro Nome">
+               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="Primeiro Nome" aria-labelledby="inputFirstName">
             </div> 
         </div>
         <div class="row form-fluid">                            
@@ -431,7 +433,7 @@
               <label for="inputLastName" class="form-control-label">Sobrenome</label>
             </div> 
             <div class="col-xs-12 col-sm-8">   
-               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="Sobrenome">
+               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="Sobrenome" aria-labelledby="inputLastName">
             </div>  
         </div>
         <div class="row form-fluid"> 
@@ -439,12 +441,12 @@
               <label for="inputEmail" class="form-control-label">email</label>  
             </div>            
             <div class="col-xs-12 col-sm-8">
-               <input name="email" type="email" class="form-control" id="InputEmail" placeholder="email">  
+               <input name="email" type="email" class="form-control" id="inputEmail" placeholder="email" aria-labelledby="inputEmail">  
             </div> 
         </div>
         <div class="row form-fluid"> 
             <div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4">
-                <button value="Subscrever" type="submit" class="btn btn-primary">Subscrever</button>  
+                <button type="submit" class="btn btn-secondary">Subscrever</button>  
             </div> 
         </div>
     </form>
@@ -460,23 +462,23 @@
                         <!-- Social Media Icons (Medium Screens)-->
                          
                         <a href="/web-design-projecthttps://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-                            <i class="fa fa-facebook-square fa-1x"></i>                    
+                            <i class="fa fa-facebook-square fa-1x"><span class="screen-reader-only">Facebook</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://500px.com/maria-500px" target="_blank" title="500px">        
-                            <i class="fa fa-500px fa-1x"></i>                    
+                            <i class="fa fa-500px fa-1x"><span class="screen-reader-only">500px</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-                            <i class="fa fa-instagram fa-1x"></i>                    
+                            <i class="fa fa-instagram fa-1x"><span class="screen-reader-only">Instagram</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-                            <i class="fa fa-youtube-square fa-1x"></i>                    
+                            <i class="fa fa-youtube-square fa-1x"><span class="screen-reader-only">YouTube</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-                            <i class="fa fa-linkedin-square fa-1x"></i>                    
+                            <i class="fa fa-linkedin-square fa-1x"><span class="screen-reader-only">LinkedIn</span></i>                    
                         </a>
                                                     
                     </div>                    
@@ -533,23 +535,23 @@
                 <!-- Social Media Icons -->
                  
                 <a href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-                  <i class="fa fa-facebook-square fa-1x"></i>                    
+                  <i class="fa fa-facebook-square fa-1x"><span class="screen-reader-only">Facebook</span></i>                    
                 </a>
                  
                 <a href="https://500px.com/maria-500px" target="_blank" title="500px">        
-                  <i class="fa fa-500px fa-1x"></i>                    
+                  <i class="fa fa-500px fa-1x"><span class="screen-reader-only">500px</span></i>                    
                 </a>
                  
                 <a href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-                  <i class="fa fa-instagram fa-1x"></i>                    
+                  <i class="fa fa-instagram fa-1x"><span class="screen-reader-only">Instagram</span></i>                    
                 </a>
                  
                 <a href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-                  <i class="fa fa-youtube-square fa-1x"></i>                    
+                  <i class="fa fa-youtube-square fa-1x"><span class="screen-reader-only">YouTube</span></i>                    
                 </a>
                  
                 <a href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-                  <i class="fa fa-linkedin-square fa-1x"></i>                    
+                  <i class="fa fa-linkedin-square fa-1x"><span class="screen-reader-only">LinkedIn</span></i>                    
                 </a>
                  				  
     		</div> 

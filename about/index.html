@@ -26,6 +26,7 @@
 
   <!--  Custom Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -37,9 +38,9 @@
     <div class="row lang-nav-search-box-sm-xl">
       <div class="col-xs-9 col-xs-offset-3">
         <!-- Search box -->
-        <form class="container-fluid form-inline search-box hidden-md-up">
+        <form class="container-fluid form-inline search-box hidden-md-up"">
           <input class="form-control" type="text" placeholder="Search">
-          <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <button class="btn btn-primary-outline" type="submit" value="search" aria-hidden="true"><i class="fa fa-search"><span class="screen-reader-only">Search Button</span></i></button>
         </form>            
         <!-- Language Navigation Bar --> 
         <span class="language-nav pull-lg-right hidden-md-up">
@@ -82,23 +83,23 @@
         <!-- Social Media Icons -->
          
         <a class="network-name" href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-          <i class="fa fa-facebook-square fa-2x"></i>                    
+          <i class="fa fa-facebook-square fa-2x"><span class="screen-reader-only">Facebook</span></i>                    
         </a>
          
         <a class="network-name" href="https://500px.com/maria-500px" target="_blank" title="500px">        
-          <i class="fa fa-500px fa-2x"></i>                    
+          <i class="fa fa-500px fa-2x"><span class="screen-reader-only">500px</span></i>                    
         </a>
          
         <a class="network-name" href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-          <i class="fa fa-instagram fa-2x"></i>                    
+          <i class="fa fa-instagram fa-2x"><span class="screen-reader-only">Instagram</span></i>                    
         </a>
          
         <a class="network-name" href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-          <i class="fa fa-youtube-square fa-2x"></i>                    
+          <i class="fa fa-youtube-square fa-2x"><span class="screen-reader-only">YouTube</span></i>                    
         </a>
          
         <a class="network-name" href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-          <i class="fa fa-linkedin-square fa-2x"></i>                    
+          <i class="fa fa-linkedin-square fa-2x"><span class="screen-reader-only">LinkedIn</span></i>                    
         </a>
                 
       </div> <!-- End of centered side --> 
@@ -112,8 +113,9 @@
         </span>
       <!-- Search box -->   
         <form class="form-inline search-box text-lg-right">
-          <input class="form-control" type="text" placeholder="Search">
-          <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          <label class="screen-reader-only" for="searchBox">Search</label>
+          <input class="form-control" type="text" id="searchBox" placeholder="Search">
+          <button class="btn btn-primary-outline" type="submit" value="search"><i class="fa fa-search"><span class="screen-reader-only">Search Button</span></i></button>
         </form>         
       </div>
 
@@ -124,23 +126,23 @@
             <!-- Social Media Icons -->
              
             <a class="network-name" href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-              <i class="fa fa-facebook-square fa-2x"></i>                    
+              <i class="fa fa-facebook-square fa-2x"><span class="screen-reader-only">Facebook</span></i>                    
             </a>
              
             <a class="network-name" href="https://500px.com/maria-500px" target="_blank" title="500px">        
-              <i class="fa fa-500px fa-2x"></i>                    
+              <i class="fa fa-500px fa-2x"><span class="screen-reader-only">500px</span></i>                    
             </a>
              
             <a class="network-name" href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-              <i class="fa fa-instagram fa-2x"></i>                    
+              <i class="fa fa-instagram fa-2x"><span class="screen-reader-only">Instagram</span></i>                    
             </a>
              
             <a class="network-name" href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-              <i class="fa fa-youtube-square fa-2x"></i>                    
+              <i class="fa fa-youtube-square fa-2x"><span class="screen-reader-only">YouTube</span></i>                    
             </a>
              
             <a class="network-name" href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-              <i class="fa fa-linkedin-square fa-2x"></i>                    
+              <i class="fa fa-linkedin-square fa-2x"><span class="screen-reader-only">LinkedIn</span></i>                    
             </a>
                           
           </div> <!-- End of Row Social Media Icons -->         
@@ -151,7 +153,7 @@
           <div class="col-md-10">            
             <form class="form-inline search-box text-md-left">
               <input class="form-control" type="text" placeholder="Search">
-              <button class="btn btn-primary-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              <button class="btn btn-primary-outline" type="submit" value="search"><i class="fa fa-search"><span class="screen-reader-only">Search Button</span></i></button>
             </form>  
           </div>
           <!-- Language Navigation Bar -->
@@ -189,15 +191,15 @@
 
 	<div class="row">
 		<div class="col-xs-6">
-			<a class="btn btn-secondary pull-sm-right" href="/web-design-project/about/#about-bda" title="Go to About Bermuda Section" role="button">About Bermuda</a> 
+			<a class="btn btn-primary pull-sm-right" href="/web-design-project/about/#about-bda" title="Go to About Bermuda Section" role="button">About Bermuda</a> 
 		</div>
 		<div class="col-xs-6">
-			<a class="btn btn-secondary pull-sm-left" href="/web-design-project/about/#about-me" title="Go to About Me Section" role="button">About Me</a>
+			<a class="btn btn-primary  pull-sm-left" href="/web-design-project/about/#about-me" title="Go to About Me Section" role="button">About Me</a>
 		</div>
 	</div>
 
 		<!-- About Bermuda -->
-	<div class="row container-fluid text-bg-center">	
+	<div class="row container-fluid text-bg-center light-turquoise-color-bg">	
 		<div class="col-xs-12">
 			<section id="about-bda">
 				<h2>About Bermuda</h2>
@@ -359,8 +361,9 @@
 
 					</div>				
 				</div>
-			</section>
-		</div>
+			</div>
+		</section>
+	</div>
 		<!-- Bermuda Parishes -->
 		<hr>
 		<div class="col-xs-12 secundary-color-bg">
@@ -376,9 +379,9 @@
 					    <p class="card-subtitle">Named for William Cavendish, 1st Earl of Devonshire [1552-1626]. Covers just over 2.3 square miles [about 6.0 km² or 1500 acres].</p>
 					    <p class="card-subtitle">Features include Devonshire Bay, Devonshire Marsh, Fort Devonshire, Cedarbridge Academy and Bermuda National Stadium.</p>
 						  <!-- Images to Small and XS screens -->	
-						  <img class="img-fluid hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-devonshire-sm.png" alt="Showing the localization of Devonshire">
+						  <img class="img-fluid img-thumbnail hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-devonshire-sm.png" alt="Showing the localization ofDevonshire" title="Devonshire">
 						  <!-- Images to Medium, Large and XL screens -->	
-						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-devonshire-lg.png" alt="Showing the localization of Devonshire">
+						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-devonshire-lg.png" alt="Showing the localization ofDevonshire" title="Devonshire">
 						  <div class="card-block card-text">
 						    <p>Showing the localization of Devonshire</p>
 						    <p class="small text-muted">By <a href="//commons.wikimedia.org/wiki/User:Golbez" title="User:Golbez">User:Golbez</a> - Self-made, traced from public domain UN or CIA maps., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="/web-design-projecthttps://commons.wikimedia.org/w/index.php?curid=202751" title="commons wikimedia url to Devonshire's image">Commons Wikimedia link</a></p>
@@ -395,9 +398,9 @@
 					    <p class="card-subtitle">Was originally called Bedford Parish. It was renamed for Scottish aristocrat James Hamilton, 2nd Marquess of Hamilton [1589-1625].</p>
 					    <p class="card-subtitle">Features include Flatt’s Inlet, Trunk Island, Shelly Bay, Bailey’s Bay, Mangrove Lake, Trott’s Pond, Crystal Cave, Castle Harbor, the Causeway and the Bermuda Aquarium.</p>
 						  <!-- Images to Small and XS screens -->	
-						  <img class="img-fluid hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-hamilton-sm.png" alt="Showing the localization of Hamilton">
+						  <img class="img-fluid img-thumbnail hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-hamilton-sm.png" alt="Showing the localization ofHamilton" title="Hamilton">
 						  <!-- Images to Medium, Large and XL screens -->	
-						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-hamilton-lg.png" alt="Showing the localization of Hamilton">
+						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-hamilton-lg.png" alt="Showing the localization ofHamilton" title="Hamilton">
 						  <div class="card-block card-text">
 						    <p>Showing the localization of Hamilton</p>
 						    <p class="small text-muted">By The original uploader was <a href="//en.wikipedia.org/wiki/User:Grutness" title="wikipedia:User:Grutness">Grutness</a> at <a href="//en.wikipedia.org/wiki/" title="wikipedia:">English Wikipedia</a> - Transferred from&nbsp;<span><a href="//en.wikipedia.org">en.wikipedia</a></span>&nbsp;to Commons., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="/web-design-projecthttps://commons.wikimedia.org/w/index.php?curid=4626146" title="commons wikimedia url to Hamilton's image">Commons Wikimedia link</a></p>
@@ -414,9 +417,9 @@
 					    <p class="card-subtitle">Named for William Paget, 4th Baron Paget de Beaudesert [1572–1629].</p>
 					    <p class="card-subtitle">Features include Hamilton Harbor, Coral Beach, Elbow Beach, Grape Bay, Hinson’s Island, King Edward VII Memorial and the Bermuda College</p>
 						  <!-- Images to Small and XS screens -->	
-						  <img class="img-fluid hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-paget-sm.png" alt="Showing the localization of Paget">
+						  <img class="img-fluid img-thumbnail hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-paget-sm.png" alt="Showing the localization ofPaget" title="Paget">
 						  <!-- Images to Medium, Large and XL screens -->	
-						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-paget-lg.png" alt="Showing the localization of Paget">
+						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-paget-lg.png" alt="Showing the localization ofPaget" title="Paget">
 						  <div class="card-block card-text">
 						    <p>Showing the localization of Paget</p>
 						    <p class="small text-muted">By Original version <a href="//commons.wikimedia.org/wiki/User:Golbez" title="User:Golbez">User:Golbez</a>.Later version <a href="https://en.wikipedia.org/wiki/User:Grutness" title="en:User:Grutness">Grutness</a> at <a href="http://en.wikipedia.org">en.wikipedia</a> - Original self-made, traced from public domain UN or CIA maps.Later version was transferred from <a href="http://en.wikipedia.org">en.wikipedia</a>., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="/web-design-projecthttps://commons.wikimedia.org/w/index.php?curid=202756" title="commons wikimedia url to Paget's image">Commons Wikimedia link</a></p>
@@ -433,9 +436,9 @@
 					    <p class="card-subtitle">Named after William Herbert, 3rd Earl of Pembroke [1580-1630].</p>
 					    <p class="card-subtitle">Features include Spanish Point, Point Shares, Fort Hamilton, and Government House</p>
 						  <!-- Images to Small and XS screens -->	
-						  <img class="img-fluid hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-pembroke-sm.png" alt="Showing the localization of Pembroke">
+						  <img class="img-fluid img-thumbnail hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-pembroke-sm.png" alt="Showing the localization ofPembroke" title="Pembroke">
 						  <!-- Images to Medium, Large and XL screens -->	
-						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-pembroke-lg.png" alt="Showing the localization of Pembroke">
+						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-pembroke-lg.png" alt="Showing the localization ofPembroke" title="Pembroke">
 						  <div class="card-block card-text">
 						    <p>Showing the localization of Pembroke</p>
 						    <p class="small text-muted">By <a href="//commons.wikimedia.org/wiki/User:Golbez" title="User:Golbez">User:Golbez</a> - Self-made, traced from public domain UN or CIA maps., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="/web-design-projecthttps://commons.wikimedia.org/w/index.php?curid=202762" title="commons wikimedia url to Pembroke's image">Commons Wikimedia link</a></p>
@@ -452,9 +455,9 @@
 					    <p class="card-subtitle">Named for English aristocrat Sir Edwin Sandys [1561-1629].</p>
 					    <p class="card-subtitle">Features include Ely’s Harbor, the Cathedral Rocks, Daniel’s Head, Mangrove Bay, Somerset Bridge and the Royal Naval Dockyard.</p>
 						  <!-- Images to Small and XS screens -->	
-						  <img class="img-fluid hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-sandys-sm.png" alt="Showing the localization of Sandys">
+						  <img class="img-fluid img-thumbnail hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-sandys-sm.png" alt="Showing the localization ofSandys" title="Sandys">
 						  <!-- Images to Medium, Large and XL screens -->	
-						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-sandys-lg.png" alt="Showing the localization of Sandys">
+						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-sandys-lg.png" alt="Showing the localization ofSandys" title="Sandys">
 						  <div class="card-block card-text">
 						    <p>Showing the localization of Sandys</p>
 						    <p class="small text-muted">By <a href="//commons.wikimedia.org/wiki/User:Golbez" title="User:Golbez">User:Golbez</a> - Self-made, traced from public domain UN or CIA maps., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="/web-design-projecthttps://commons.wikimedia.org/w/index.php?curid=202754" title="commons wikimedia url to Sandys's image">Commons Wikimedia link</a></p>
@@ -471,9 +474,9 @@
 					    <p class="card-subtitle">Named for English aristocrat Sir Thomas Smith/Smythe [1558-1625].</p>
 					    <p class="card-subtitle">Features in Smith’s include Spittal Pond, John Smith’s Beach, Devil’s Hole, Gibbet Island, and Portuguese Rock.</p>
 						  <!-- Images to Small and XS screens -->	
-						  <img class="img-fluid hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-smiths-sm.png" alt="Showing the localization of Smith’s">
+						  <img class="img-fluid img-thumbnail hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-smiths-sm.png" alt="Showing the localization ofSmith’s" title="Smith’s">
 						  <!-- Images to Medium, Large and XL screens -->	
-						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-smiths-lg.png" alt="Showing the localization of Smith’s">
+						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-smiths-lg.png" alt="Showing the localization ofSmith’s" title="Smith’s">
 						  <div class="card-block card-text">
 						    <p>Showing the localization of Smith’s</p>
 						    <p class="small text-muted">By Original version <a href="//commons.wikimedia.org/wiki/User:Golbez" title="User:Golbez">User:Golbez</a>.Later version <a href="//en.wikipedia.org/wiki/User:Grutness"  title="en:User:Grutness">Grutness</a> at <a href="http://en.wikipedia.org">en.wikipedia</a> - Original self-made, traced from public domain UN or CIA maps.Later version was transferred from <a href="http://en.wikipedia.org">en.wikipedia</a>., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="/web-design-projecthttps://commons.wikimedia.org/w/index.php?curid=202755" title="commons wikimedia url to Smith’s's image">Commons Wikimedia link</a></p>
@@ -490,9 +493,9 @@
 					    <p class="card-subtitle">Named for Henry Wriothesley, 3rd Earl of Southampton [1573-1624].</p>
 					    <p class="card-subtitle">Features include Whale Bay, Church Bay, Horseshoe Bay, Riddell’s Bay and Gibbs Hill Lighthouse.</p>
 						  <!-- Images to Small and XS screens -->	
-						  <img class="img-fluid hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-southampton-sm.png" alt="Showing the localization of Southampton">
+						  <img class="img-fluid img-thumbnail hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-southampton-sm.png" alt="Showing the localization ofSouthampton" title="Southampton">
 						  <!-- Images to Medium, Large and XL screens -->	
-						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-southampton-lg.png" alt="Showing the localization of Southampton">
+						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-southampton-lg.png" alt="Showing the localization ofSouthampton" title="Southampton">
 						  <div class="card-block card-text">
 						    <p>Showing the localization of Southampton</p>
 						    <p class="small text-muted">By <a href="//commons.wikimedia.org/wiki/User:Golbez" title="User:Golbez">User:Golbez</a> - Self-made, traced from public domain UN or CIA maps., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="/web-design-projecthttps://commons.wikimedia.org/w/index.php?curid=202761" title="commons wikimedia url to Southampton's image">Commons Wikimedia link</a></p>
@@ -509,9 +512,9 @@
 					    <p class="card-subtitle">Named after the founder of Bermuda Admiral Sir George Somers.</p>
 					    <p class="card-subtitle">Technically, St. George’s includes the island of St. David’s, however this is often considered a separate entity amongst locals. Features in St. George’s include Castle Harbour, Tobacco Bay, Ferry Reach, St. David’s Lighthouse, Fort St. Catherine, and the Bermuda Biological Station for Research. Also contains the Town of St. Georges, a UNESCO World Heritage Site.</p>
 						  <!-- Images to Small and XS screens -->	
-						  <img class="img-fluid hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-st-georges-sm.png" alt="Showing the localization of St George’s">
+						  <img class="img-fluid img-thumbnail hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-st-georges-sm.png" alt="Showing the localization ofSt George’s" title="St George’s">
 						  <!-- Images to Medium, Large and XL screens -->	
-						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-st-georges-lg.png" alt="Showing the localization of St George’s">
+						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-st-georges-lg.png" alt="Showing the localization ofSt George’s" title="St George’s">
 						  <div class="card-block card-text">
 						    <p>Showing the localization of St George’s</p>
 						    <p class="small text-muted">By <a href="//en.wikipedia.org/wiki/User:Grutness"  title="en:User:Grutness">en:User:Grutness</a> (?) - Self-made, traced from public domain UN or CIA maps., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="/web-design-projecthttps://commons.wikimedia.org/w/index.php?curid=202763" title="commons wikimedia url to St George’s's image">Commons Wikimedia link</a></p>
@@ -528,9 +531,9 @@
 					    <p class="card-subtitle">Named for Robert Rich, 2nd Earl of Warwick [1587-1658]</p>
 					    <p class="card-subtitle">Features include Warwick Long Bay, Riddell’s Bay, Darrell’s Island, Hawkins Island, Long Island and Warwick Camp</p>
 						  <!-- Images to Small and XS screens -->	
-						  <img class="img-fluid hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-warwick-sm.png" alt="Showing the localization of Warwick">
+						  <img class="img-fluid img-thumbnail hidden-md-up" src="/web-design-project/assets//images/about/parishes/bermuda-warwick-sm.png" alt="Showing the localization ofWarwick" title="Warwick">
 						  <!-- Images to Medium, Large and XL screens -->	
-						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-warwick-lg.png" alt="Showing the localization of Warwick">
+						  <img class="img-fluid hidden-sm-down" src="/web-design-project/assets//images/about/parishes/bermuda-warwick-lg.png" alt="Showing the localization ofWarwick" title="Warwick">
 						  <div class="card-block card-text">
 						    <p>Showing the localization of Warwick</p>
 						    <p class="small text-muted">By Original version <a href="//commons.wikimedia.org/wiki/User:Golbez" title="User:Golbez">User:Golbez</a>.Later version <a href="https://en.wikipedia.org/wiki/User:Grutness"  title="en:User:Grutness">Grutness</a> at <a href="http://en.wikipedia.org">en.wikipedia</a> - Original self-made, traced from public domain UN or CIA maps.Later version was transferred from <a href="http://en.wikipedia.org">en.wikipedia</a>., <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="/web-design-projecthttps://commons.wikimedia.org/w/index.php?curid=202759" title="commons wikimedia url to Warwick's image">Commons Wikimedia link</a></p>
@@ -579,11 +582,11 @@
 						</div>
 						<div class="col-xs-12">
 							<h4>As a photographer</h4>
-							<p>You can see (or buy) my last photography work at <a href="https://500px.com/maria-500px" title="Photos at 500px.com">500px.com</a> and <a href="http://www.istockphoto.com/portfolio/MariaProiete" title="Photos at iStockPhoto.com">iStockPhoto.com</a> and on this website all the photos used that have no credit are mine. Before being a photographer hobbyist I used to post the photos I had snapped on <a href="https://www.flickr.com/photos/mariaproiete" title="Photos at Flirck">Flirck</a>.</p>
+							<p>You can see (or buy) my last photography work at <a classe="inverse-color" href="https://500px.com/maria-500px" title="Photos at 500px.com">500px.com</a> and <a classe="inverse-color" href="http://www.istockphoto.com/portfolio/MariaProiete" title="Photos at iStockPhoto.com">iStockPhoto.com</a> and on this website all the photos used that have no credit are mine. Before being a photographer hobbyist I used to post the photos I had snapped on <a href="https://www.flickr.com/photos/mariaproiete" title="Photos at Flirck">Flirck</a>.</p>
 						</div>
 						<div class="col-xs-12">
 							<h4>As a blogger</h4>
-							<p>I started blogging in 2009 and I used to had two blogs&#58; One about <a href="http://mariaproiete.com/blogs/financas/" title="Maria's Accounting and Finance blog">Accounting, Payroll and Finances</a> and another about <a href="http://mariaproiete.com/blogs/office/" title="Maria's blog about Office applications">Microsoft Office Applications</a> (both are discontinued since 2013 and were written in Portuguese). Currently I have two blogs, one started in 2013 regarding my life in Bermuda and since 2015 a new blog about Front-End Development.</p>
+							<p>I started blogging in 2009 and I used to had two blogs&#58; One about <a classe="inverse-color" href="http://mariaproiete.com/blogs/financas/" title="Maria's Accounting and Finance blog">Accounting, Payroll and Finances</a> and another about <a href="http://mariaproiete.com/blogs/office/" title="Maria's blog about Office applications">Microsoft Office Applications</a> (both are discontinued since 2013 and were written in Portuguese). Currently I have two blogs, one started in 2013 regarding my life in Bermuda and since 2015 a new blog about Front-End Development.</p>
 						</div>																	
 					</div>        
 				</div>							
@@ -747,7 +750,7 @@
                          
                     </div>
                     <!-- <button type="button" class="btn btn-primary pull-sm-right">More links</button>  -->
-                    <a class="btn btn-primary pull-sm-right" href="/web-design-project/links/" role="button" title="Go to Links Page">More links</a>             
+                    <a class="btn btn-secondary pull-sm-right" href="/web-design-project/links/" role="button" title="Go to Links Page">More links</a>             
                 </div>                
 
             <hr class="hidden-lg-up">    
@@ -762,7 +765,7 @@
               <label for="inputFirstName" class="form-control-label">First Name</label>
             </div>
             <div class="col-xs-12 col-sm-8">
-               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+               <input name="firstName" type="text" class="form-control" id="inputFirstName" placeholder="First Name" aria-labelledby="inputFirstName">
             </div> 
         </div>
         <div class="row form-fluid">                            
@@ -770,7 +773,7 @@
               <label for="inputLastName" class="form-control-label">surname</label>
             </div> 
             <div class="col-xs-12 col-sm-8">   
-               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="surname">
+               <input name="lastName" type="text" class="form-control" id="inputLastName" placeholder="surname" aria-labelledby="inputLastName">
             </div>  
         </div>
         <div class="row form-fluid"> 
@@ -778,12 +781,12 @@
               <label for="inputEmail" class="form-control-label">email</label>  
             </div>            
             <div class="col-xs-12 col-sm-8">
-               <input name="email" type="email" class="form-control" id="InputEmail" placeholder="email">  
+               <input name="email" type="email" class="form-control" id="inputEmail" placeholder="email" aria-labelledby="inputEmail">  
             </div> 
         </div>
         <div class="row form-fluid"> 
             <div class="col-xs-8 col-xs-offset-4 col-sm-8 col-sm-offset-4">
-                <button value="Subscribe" type="submit" class="btn btn-primary">Subscribe</button>  
+                <button type="submit" class="btn btn-secondary">Subscribe</button>  
             </div> 
         </div>
     </form>
@@ -799,23 +802,23 @@
                         <!-- Social Media Icons (Medium Screens)-->
                          
                         <a href="/web-design-projecthttps://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-                            <i class="fa fa-facebook-square fa-1x"></i>                    
+                            <i class="fa fa-facebook-square fa-1x"><span class="screen-reader-only">Facebook</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://500px.com/maria-500px" target="_blank" title="500px">        
-                            <i class="fa fa-500px fa-1x"></i>                    
+                            <i class="fa fa-500px fa-1x"><span class="screen-reader-only">500px</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-                            <i class="fa fa-instagram fa-1x"></i>                    
+                            <i class="fa fa-instagram fa-1x"><span class="screen-reader-only">Instagram</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-                            <i class="fa fa-youtube-square fa-1x"></i>                    
+                            <i class="fa fa-youtube-square fa-1x"><span class="screen-reader-only">YouTube</span></i>                    
                         </a>
                          
                         <a href="/web-design-projecthttps://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-                            <i class="fa fa-linkedin-square fa-1x"></i>                    
+                            <i class="fa fa-linkedin-square fa-1x"><span class="screen-reader-only">LinkedIn</span></i>                    
                         </a>
                                                     
                     </div>                    
@@ -872,23 +875,23 @@
                 <!-- Social Media Icons -->
                  
                 <a href="https://www.facebook.com/mylifeinbermuda/" target="_blank" title="Facebook">        
-                  <i class="fa fa-facebook-square fa-1x"></i>                    
+                  <i class="fa fa-facebook-square fa-1x"><span class="screen-reader-only">Facebook</span></i>                    
                 </a>
                  
                 <a href="https://500px.com/maria-500px" target="_blank" title="500px">        
-                  <i class="fa fa-500px fa-1x"></i>                    
+                  <i class="fa fa-500px fa-1x"><span class="screen-reader-only">500px</span></i>                    
                 </a>
                  
                 <a href="https://www.instagram.com/mariaproiete" target="_blank" title="Instagram">        
-                  <i class="fa fa-instagram fa-1x"></i>                    
+                  <i class="fa fa-instagram fa-1x"><span class="screen-reader-only">Instagram</span></i>                    
                 </a>
                  
                 <a href="https://www.youtube.com/channel/UC8XItXRVAY8L2_Y-GFKk07g" target="_blank" title="YouTube">        
-                  <i class="fa fa-youtube-square fa-1x"></i>                    
+                  <i class="fa fa-youtube-square fa-1x"><span class="screen-reader-only">YouTube</span></i>                    
                 </a>
                  
                 <a href="https://linkedin.com/in/mariaproiete" target="_blank" title="LinkedIn">        
-                  <i class="fa fa-linkedin-square fa-1x"></i>                    
+                  <i class="fa fa-linkedin-square fa-1x"><span class="screen-reader-only">LinkedIn</span></i>                    
                 </a>
                  				  
     		</div> 
